@@ -5,7 +5,7 @@
     <meta name="viewport" 
           content="width=device-width, user-scalable=no, 
     initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="./src/style.css" rel="stylesheet">
     <title>Mon Premier Modal Tailwind</title>
 </head>
 <body class="bg-teal-300 flex content-center justify-center h-full items-center">
@@ -19,9 +19,10 @@
             </div>
             <div class="mb-4">
                 <label class= "block text-teal-600 mb-2" for="password">Mot de passe</label>
-                <input class="border shadow-inner py-2 px-3 text-teal-600 leading-tight focus:outline-none focus:shadow-outline" type="text" id="password" name="password" placeholder="******"/>
+                <input class="border shadow-inner py-2 px-3 text-teal-600 focus:shadow-outline" type="text" id="password" name="password" placeholder="******"/>
             </div>
-            <button class="bg-teal-500 hover:bg-teal-600 text-white font-bold py-2 px-4 rounded self-start" type="submit">S'identifier</button>
+            <button class="bg-teal-500 text-white font-bold py-2 px-4 rounded self-start hover:bg-teal-600
+}" type="submit">S'identifier</button>
         </div>
 
     </div>
